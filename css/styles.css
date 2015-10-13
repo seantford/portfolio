@@ -56,24 +56,25 @@ NAVIGATION
 
 nav {
 	background-color: #2E8AE6;
-  	padding: 10px 0;
+    padding: 10px 0;
  	margin: 20px 0 0;
-  	text-align: center;
+    text-align: center;
 }
 
 nav ul {
  	margin: 0 auto;
-  	padding: 0;
+    padding: 0;
 }
 
 nav li {
-  	display: inline-block;
+    display: inline-block;
 }
 
 nav a {
-  	font-weight: 800;
+    font-weight: 800;
  	padding: 15px 10px;
  	color: #fff;
+
 }	
 
 nav .selected {
@@ -109,9 +110,9 @@ nav .selected {
 #gallery li a img {
 	float: left;
 	background-color: lightblue;
-	min-width: 50%;
-	width: 150px;
-	height: 150px;
+    width: 50%;
+	height: auto;
+
 }
 
 .galleryInfo {
@@ -205,30 +206,30 @@ PAGE: CONTACT
 ***********************************************/
 
 .contact-info {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  font-size: 0.9em;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 0.9em;
 }
 
 .contact-info a {
-  display: block;
-  min-height: 20px;
-  background-repeat: no-repeat;
-  background-size: 20px 20px;
-  padding: 0 0 0 30px;
-  margin: 0 0 10px;
+    display: block;
+    min-height: 20px;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    padding: 0 0 0 30px;
+    margin: 0 0 10px;
 }
 
 .contact-info li.phone a {
-  background-image: url('../img/phone.png');
+    background-image: url('../img/phone.png');
 }
 
 .contact-info li.mail a {
-  background-image: url('../img/mail.png');
+    background-image: url('../img/mail.png');
 }
 
 .contact-info li.twitter a {
-  background-image: url('../img/twitter.png');
+    background-image: url('../img/twitter.png');
 }
 
