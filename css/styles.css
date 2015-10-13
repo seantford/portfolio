@@ -107,11 +107,8 @@ nav .selected {
   	color: #000;
 }
 
-#gallery li a {
-	display: block;
-}
-
 #gallery li a img {
+	display: block;
 	float: left;
 	background-color: lightblue;
     width: 50%;
@@ -129,10 +126,11 @@ nav .selected {
 }
 
 
-#gallery li a p,
-#gallery li a h3 {
-  	margin: 0.5em 0.25em 0 0.5em;
+.gal-info {
+  	margin-left: 0.5em;
+  	margin-right: 0.5em;
   	color: #fff;
+  	line-height: 1.1rem;
 }
 
 /***********************************************
