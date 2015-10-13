@@ -110,7 +110,7 @@ nav .selected {
 #gallery li a img {
 	display: block;
 	float: left;
-	background-color: lightblue;
+	/*background-color: lightblue;*/
     width: 50%;
 	height: auto;
 
