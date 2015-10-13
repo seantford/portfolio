@@ -92,16 +92,17 @@ nav .selected {
 
 
 #gallery {
-  	margin: 0 0;
+  	margin: .5em 0 .5em;
   	padding: 0;
   	list-style: none;
   	display: flex;
   	flex-flow: row wrap;
+  	justif-content: center;
 }
 
 #gallery li {
   	width: 100%;
-  	margin-top: 1em;
+  	margin: .5em 0 .5em;
   	background-color: #143D66;
   	color: #000;
 }
@@ -186,7 +187,7 @@ FOOTER
 #footer {
   	font-size: 0.75em;
   	text-align: center;
-  	padding-top: 50px;
+  	padding-top: 1.5em;
   	display: flex;
   	flex-direction: column;
 
