@@ -57,17 +57,20 @@ NAVIGATION
 nav {
 	background-color: #2E8AE6;
     padding: 10px 0;
- 	margin: 20px 0 0;
+    margin: 20px 0 0;
     text-align: center;
 }
 
 nav ul {
  	margin: 0 auto;
     padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
 nav li {
-    display: inline-block;
+
 }
 
 nav a {
