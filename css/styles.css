@@ -162,7 +162,9 @@ ABOUT
 
 
 .profile-photo {
-  	max-width: 150px;
+	width: 100%;
+  	margin: 0 auto 2em auto;
+  	/*max-width: 90%;*/
   	border-radius: 100%;
 }
 
@@ -218,6 +220,12 @@ FOOTER
 /***********************************************
 PAGE: CONTACT
 ***********************************************/
+
+
+#secondary {
+	padding: .5em .5em .5em;
+	background-color: #1A4C80;
+}
 
 .contact-info {
     list-style: none;
