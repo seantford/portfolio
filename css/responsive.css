@@ -1,21 +1,30 @@
-@media only screen and (min-width: 600px) {
+@media only screen and (min-width: 500px) {
     #gallery li {
-		font-size: 1.25rem;
+		font-size: 1.15rem;
     }
 }
-@media only screen and (min-width: 800px) {
-/*TABLET LANDSCAPE*/
 
+@media only screen and (min-width: 700px) {
+    #gallery li {
+		font-size: 1.25rem;
+		max-width: 95%;
+      	margin-left: auto;
+      	margin-right: auto;
+    }
 
     #gallery {
       	margin: 1em 2.5% 1em 2.5%;
       	
     }
+}
+@media only screen and (min-width: 850px) {
+/*TABLET LANDSCAPE*/
+
+
 
     #gallery li {
-      	max-width: 46%;
-      	margin-left: 2%;
-      	margin-right: 2%;
+      	/*max-width: 450px;*/
+      	width: 46%;
 		font-size: 1rem;
     }
 

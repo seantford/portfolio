@@ -97,7 +97,7 @@ nav .selected {
   	list-style: none;
   	display: flex;
   	flex-flow: row wrap;
-  	justif-content: center;
+  	justify-content: center;
 }
 
 #gallery li {
@@ -130,7 +130,12 @@ nav .selected {
   	margin-left: 0.5em;
   	margin-right: 0.5em;
   	color: #fff;
-  	line-height: 1.1rem;
+  	line-height: 1.15rem;
+}
+
+p.gal-info {
+  	margin-top: auto;
+  	margin-bottom: auto;
 }
 
 /***********************************************
