@@ -2,13 +2,10 @@
     #gallery li {
 		font-size: 1.15rem;
     }
+
     body {
         font-size: 1.15rem;
     }
-
-    /*.gal-info {
-    	margin-bottom: default;
-    }*/
 }
 
 @media only screen and (min-width: 700px) {
@@ -21,7 +18,6 @@
 
     #gallery {
         margin: 1em 2.5% 1em 2.5%;
-        
     }
 }
 
@@ -73,7 +69,6 @@
         /*font-size: 1.2rem;*/
     }
 }
-
 
 @media only screen and (min-width: 1700px) {
 /*DESKTOP LARGE*/
