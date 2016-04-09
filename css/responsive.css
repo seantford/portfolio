@@ -1,6 +1,6 @@
 @media only screen and (min-width: 500px) {
     #gallery li {
-		font-size: 1.15rem;
+        font-size: 1.15rem;
     }
 
     body {
@@ -10,7 +10,7 @@
 
 @media only screen and (min-width: 700px) {
     #gallery li {
-		font-size: 1.25rem;
+        font-size: 1.25rem;
         max-width: 95%;
         margin-left: auto;
         margin-right: auto;
@@ -32,16 +32,21 @@
     .wrapper {
         display: flex;
         flex-direction: row;
+        justify-content: space-around;
         font-size: 1em;
     }
 
-    .profile-photo { 
+  /*  .profile-photo { 
         margin: 2em;
-    }
+    }*/
 
     #primary {
         width: 50%;
         float: left;
+    }
+
+    .profile-photo {
+        min-width: 80%;
     }
   
     #secondary {
