@@ -105,13 +105,16 @@ nav .selected {
   	color: #000;
 }
 
-#gallery li a img {
-	display: block;
-	float: left;
-    width: 50%;
-	height: auto;
 
+
+#gallery li a img {
+  display: block;
+  float: left;
+  width: 50%;
+  height: auto;
+  background-color: #CCCCCC;
 }
+
 
 
 .galleryInfo {
@@ -160,17 +163,21 @@ ABOUT
 
 
 .profile-photo {
-	width: 80%;
-  	margin: 0 10% 1em 10%;
-  	/*max-width: 90%;*/
-  	border-radius: 100%;
+  width: 80%;
+  margin: 0 10% 1em 10%;
+  max-width: 300px;
+  border-radius: 100%;
 }
 
 #about-text {
 	display: block;
 	max-width: 100%;
-	margin-left: auto;
-	margin-right: auto;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+#about-text span {
+  text-align: center;
 }
 
 /***********************************************
@@ -179,7 +186,6 @@ PAGE: CONTACT
 
 #contact-secondary {
 	padding: .5em .5em .5em;
-	background-color: #1A4C80;
   width: 50%;
 }
 
